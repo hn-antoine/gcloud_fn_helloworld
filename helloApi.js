@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // Define a simple route
-app.get('/hello', (req, res) => {
+app.get('/', (req, res) => {
   res.send({ message: 'Hello, World!' });
 });
 
