@@ -1,0 +1,16 @@
+{
+  "name": "gcloud_fn_helloworld",
+  "version": "1.0.0",
+  "description": "A simple Google Cloud Function using Express",
+  "main": "helloApi.js",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "start": "functions-framework --target=helloApi"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.5.1",
+    "express": "^5.1.0"
+  }
+}
